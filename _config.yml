@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: Sumin Kim
 
-tagline: Seismic imaging · Inversion
+tagline: Seismic data processing & imaging · Inverse problem · Optimization
 
 description: >- # used by seo meta and the atom feed
   Sumin Kim — seismic imaging and inversion research, academic background, publications, and personal notes.
@@ -35,7 +35,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Sumin Kim
-  email: # Add an email address intended for public contact.
+  email: seisminic@gmail.com# Add an email address intended for public contact.
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
     # The first element serves as the copyright owner's link
