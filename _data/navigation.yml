@@ -8,13 +8,9 @@
       url: /publications/
       key: publications
       icon: fas fa-file-lines
-- label: NOTES & PROJECTS
+- label: PERSONAL NOTES
   items:
     - title: Blog
       url: /blog/
       key: blog
       icon: fas fa-pen-nib
-    - title: Projects
-      url: /projects/
-      key: projects
-      icon: fas fa-laptop-code

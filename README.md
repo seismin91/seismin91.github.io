@@ -7,7 +7,7 @@ An English-language personal website built with Jekyll and Chirpy 7.6.0.
 ## Structure
 
 - **Profile & Research**: About & CV (`/about/`) includes a biography, experience, education, and research interests. Publications (`/publications/`) lists journal articles and conference contributions by year.
-- **Notes & Projects**: Blog (`/blog/`) and Projects (`/projects/`) provide separate spaces for personal work. Categories, tags, and archives are accessible from the blog.
+- **Personal Notes**: Blog (`/blog/`) contains personal notes. Categories, tags, and archives are accessible from the blog.
 - **Home**: A profile summary, links to both areas, two recent publications, and the three latest posts.
 
 The public Google Scholar profile supplied by the site owner was checked on 2026-10-04. The bibliography contains 15 journal articles and 9 conference contributions. Education and earlier positions remain unfilled until supplied. Citation counts are not displayed, and there is no automatic Scholar synchronization.
@@ -23,7 +23,6 @@ For the DAS article, the official English title, authors, and page range come fr
 | Publication list | `_data/publications.json` |
 | Homepage introduction and navigation | `_includes/portfolio-intro.html` |
 | Profile sections | `_includes/profile.html` |
-| Projects | `_tabs/projects.md` |
 | Blog listing | `_tabs/blog.html` |
 | Sidebar groups and links | `_data/navigation.yml` |
 | Social links | `_data/contact.yml` |
