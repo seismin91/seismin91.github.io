@@ -3,16 +3,12 @@
   <a href="#introduction">About Me</a>
   <a href="#experience">Experience</a>
   <a href="#education">Education</a>
-  <a href="#research">Research & Publications</a>
 </nav>
 <section class="profile-section" id="introduction">
   <h2>About Me</h2>
   <p class="profile-name">{{ profile.name | escape }}</p>
   <p class="profile-affiliation">{{ profile.affiliation | escape }} · {{ profile.role | escape }}</p>
   <p>{{ profile.bio | escape }}</p>
-  <div class="portfolio-tags" aria-label="Research interests">
-    {% for interest in profile.interests %}<span>{{ interest | escape }}</span>{% endfor %}
-  </div>
 </section>
 <section class="profile-section" id="experience">
   <h2>Experience</h2>
@@ -34,8 +30,4 @@
   {% else %}
     <p class="profile-pending">Education details will be added here.</p>
   {% endif %}
-</section>
-<section class="profile-section" id="research">
-  <h2>Research & Publications</h2>
-  <p>My research interests include seismic imaging, seismic inversion, seismic data processing, and optimization.</p>
 </section>

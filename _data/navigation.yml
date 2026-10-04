@@ -1,9 +1,13 @@
 - label: PROFILE & RESEARCH
   items:
-    - title: About & CV
+    - title: About
       url: /about/
       key: about
       icon: fas fa-user
+    - title: Research
+      url: /research/
+      key: research
+      icon: fas fa-microscope
     - title: Publications
       url: /publications/
       key: publications

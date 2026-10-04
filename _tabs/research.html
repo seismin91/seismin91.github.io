@@ -1,0 +1,16 @@
+---
+title: Research
+icon: fas fa-microscope
+order: 2
+permalink: /research/
+---
+<p>My research focuses on seismic imaging and inversion, with interests in seismic data processing and optimization.</p>
+
+<section class="profile-section" id="research-interests">
+  <h2>Research Interests</h2>
+  <ul>
+    {% for interest in site.data.profile.interests %}
+      <li>{{ interest | escape }}</li>
+    {% endfor %}
+  </ul>
+</section>

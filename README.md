@@ -6,7 +6,7 @@ An English-language personal website built with Jekyll and Chirpy 7.6.0.
 
 ## Structure
 
-- **Profile & Research**: About & CV (`/about/`) includes a biography, experience, education, and research interests. Publications (`/publications/`) lists journal articles and conference contributions by year.
+- **Profile & Research**: About (`/about/`) includes a biography, experience, and education. Research (`/research/`) presents research interests. Publications (`/publications/`) lists journal articles and conference contributions by year.
 - **Personal Notes**: Blog (`/blog/`) contains personal notes. Categories, tags, and archives are accessible from the blog.
 - **Home**: A profile summary, links to both areas, two recent publications, and the three latest posts.
 
@@ -23,6 +23,7 @@ For the DAS article, the official English title, authors, and page range come fr
 | Publication list | `_data/publications.json` |
 | Homepage introduction and navigation | `_includes/portfolio-intro.html` |
 | Profile sections | `_includes/profile.html` |
+| Research page | `_tabs/research.html` |
 | Blog listing | `_tabs/blog.html` |
 | Sidebar groups and links | `_data/navigation.yml` |
 | Social links | `_data/contact.yml` |
