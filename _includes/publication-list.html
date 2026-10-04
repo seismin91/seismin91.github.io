@@ -6,6 +6,7 @@
         <a class="publication-title" href="{{ publication.url | escape }}" target="_blank" rel="noopener noreferrer">{{ publication.title | escape }}</a>
         <p class="publication-authors">{{ publication.authors | escape }}</p>
         <p class="publication-venue">{{ publication.venue | escape }}</p>
+        {% if publication.publisher_url %}<p class="publication-venue"><a href="{{ publication.publisher_url | escape }}" target="_blank" rel="noopener noreferrer">Publisher record ↗</a></p>{% endif %}
       </div>
     </li>
   {% endfor %}

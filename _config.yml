@@ -6,7 +6,7 @@ theme: jekyll-theme-chirpy
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: ko-KR
+lang: en
 
 # Change to your timezone › https://zones.arilyn.cc
 timezone: Asia/Seoul
@@ -19,7 +19,7 @@ title: Sumin Kim
 tagline: Seismic imaging · Inversion
 
 description: >- # used by seo meta and the atom feed
-  Sumin Kim의 개인 사이트. 탄성파 영상화·역산 연구와 경력, 논문, 블로그, 프로젝트를 소개합니다.
+  Sumin Kim — seismic imaging and inversion research, academic background, publications, personal notes, and projects.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -35,12 +35,12 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Sumin Kim
-  email: # 공개할 이메일을 입력하면 됩니다.
+  email: # Add an email address intended for public contact.
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/seismin91
-    - "https://scholar.google.co.kr/citations?user=dfAqA7oAAAAJ&hl=ko"
+    - "https://scholar.google.co.kr/citations?user=dfAqA7oAAAAJ&hl=en"
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -149,16 +149,16 @@ assets:
     env: # [development | production]
 
 pwa:
-  enabled: false # 초기에는 설치 및 오프라인 캐시를 사용하지 않습니다.
+  enabled: false # App installation is disabled.
   cache:
-    enabled: false # 새 콘텐츠를 즉시 확인할 수 있도록 캐시를 끕니다.
+    enabled: false # Offline caching is disabled.
     # Paths defined here will be excluded from the PWA cache.
     # Usually its value is the `baseurl` of another website that
     # shares the same domain name as the current website.
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-# 홈은 연구 소개, 블로그는 /blog/에서 전체 글을 최신순으로 표시합니다.
+# Home introduces the research profile; /blog/ lists all posts.
 
 # The base URL of your site
 baseurl: ""

@@ -1,22 +1,23 @@
-# 공개된 Google Scholar 프로필 기준. 기간·학위는 확인 후 입력합니다.
+# Public Google Scholar profile, checked on the date below.
+# Add verified education and earlier positions when supplied.
 name: Sumin Kim
-role: 박사후연구원
-affiliation: 강원대학교
-affiliation_en: Kangwon National University
+role: Postdoctoral Researcher
+affiliation: Kangwon National University
 bio: >-
-  탄성파 영상화와 역산을 연구하는 Sumin Kim입니다.
-  탄성파 자료처리와 최적화에 관심을 두고, 연구와 개인적인 배움을 기록합니다.
-source_url: "https://scholar.google.co.kr/citations?user=dfAqA7oAAAAJ&hl=ko"
+  I am a postdoctoral researcher at Kangwon National University, working on seismic
+  imaging and inversion. My interests include seismic data processing and optimization.
+  This site brings together my academic background, publications, and personal notes.
+source_url: "https://scholar.google.co.kr/citations?user=dfAqA7oAAAAJ&hl=en"
 source_checked: "2026-10-04"
 interests:
-  - 탄성파 영상화
-  - 탄성파 역산
-  - 탄성파 자료처리
-  - 최적화
+  - Seismic imaging
+  - Seismic inversion
+  - Seismic data processing
+  - Optimization
 experience:
-  - role: 박사후연구원
-    organization: 강원대학교
-    period: 현재
+  - role: Postdoctoral Researcher
+    organization: Kangwon National University
+    period: Present
 education: []
-# 교육 정보 예시 형식: degree, institution, field, period
-# 이전 경력 예시 형식: role, organization, period
+# Education fields: degree, institution, field, period
+# Experience fields: role, organization, period

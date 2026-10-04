@@ -4,11 +4,11 @@ icon: fas fa-pen-nib
 order: 3
 permalink: /blog/
 ---
-<p>공부하며 남긴 메모, 문제를 해결한 과정, 그리고 개인적인 생각을 기록합니다.</p>
-<nav class="section-nav" aria-label="블로그 탐색">
-  <a href="{{ '/categories/' | relative_url }}">카테고리</a>
-  <a href="{{ '/tags/' | relative_url }}">태그</a>
-  <a href="{{ '/archives/' | relative_url }}">연도별 기록</a>
+<p>Notes on what I learn, problems I work through, and ideas I want to keep.</p>
+<nav class="section-nav" aria-label="Browse the blog">
+  <a href="{{ '/categories/' | relative_url }}">Categories</a>
+  <a href="{{ '/tags/' | relative_url }}">Tags</a>
+  <a href="{{ '/archives/' | relative_url }}">Archives</a>
 </nav>
 {% assign visible_posts = site.posts | where_exp: 'post', 'post.hidden != true' %}
 {% assign pinned_posts = visible_posts | where: 'pin', true %}

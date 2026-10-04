@@ -1,20 +1,20 @@
-- label: 소개 · 연구
+- label: PROFILE & RESEARCH
   items:
-    - title: 소개 · 이력
+    - title: About & CV
       url: /about/
       key: about
       icon: fas fa-user
-    - title: 논문 · 발표
+    - title: Publications
       url: /publications/
       key: publications
       icon: fas fa-file-lines
-- label: 개인 기록
+- label: NOTES & PROJECTS
   items:
-    - title: 블로그
+    - title: Blog
       url: /blog/
       key: blog
       icon: fas fa-pen-nib
-    - title: 프로젝트
+    - title: Projects
       url: /projects/
       key: projects
       icon: fas fa-laptop-code

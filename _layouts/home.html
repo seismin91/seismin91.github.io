@@ -6,16 +6,16 @@ layout: default
 
 <section class="home-section" aria-labelledby="recent-publications-title">
   <div class="portfolio-section-heading">
-    <h2 id="recent-publications-title">최근 논문</h2>
-    <a href="{{ '/publications/' | relative_url }}">전체 보기 <span aria-hidden="true">→</span></a>
+    <h2 id="recent-publications-title">Recent Publications</h2>
+    <a href="{{ '/publications/' | relative_url }}">View all <span aria-hidden="true">→</span></a>
   </div>
   {% assign recent_publications = site.data.publications | where: 'type', 'journal' | sort: 'year' | reverse | slice: 0, 2 %}
   {% include publication-list.html publications=recent_publications %}
 </section>
 <section class="home-section" aria-labelledby="recent-posts-title">
   <div class="portfolio-section-heading">
-    <h2 id="recent-posts-title">최근 기록</h2>
-    <a href="{{ '/blog/' | relative_url }}">블로그 <span aria-hidden="true">→</span></a>
+    <h2 id="recent-posts-title">Recent Notes</h2>
+    <a href="{{ '/blog/' | relative_url }}">Blog <span aria-hidden="true">→</span></a>
   </div>
   {% assign recent_posts = site.posts | where_exp: 'post', 'post.hidden != true' | slice: 0, 3 %}
   {% include blog-list.html posts=recent_posts %}

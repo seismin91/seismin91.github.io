@@ -5,19 +5,19 @@ order: 4
 permalink: /projects/
 ---
 
-만든 것과 만들어가는 과정을 정리합니다.
+A place for things I build and the process behind them.
 
-## 개인 포트폴리오 & 기록 {#personal-site}
+## Personal Website {#personal-site}
 
-프로젝트와 배움을 한곳에 모으기 위한 개인 웹사이트입니다. 지금 보고 계신 사이트가 첫 번째 프로젝트입니다.
+A home for my research profile, publications, personal notes, and projects. This is the site you are currently visiting.
 
-**사용 기술** · Jekyll / Chirpy / GitHub Pages / GitHub Actions
+**Built with** · Jekyll / Chirpy / GitHub Pages / GitHub Actions
 
-### 구성
+### Features
 
-- 자기소개·경력·학위와 논문을 담는 프로필
-- 별도 블로그와 프로젝트 공간, 카테고리·태그 분류
-- 모바일 화면과 라이트·다크 모드를 지원하는 Chirpy 테마
-- 변경사항을 확인하고 배포하는 GitHub Actions
+- Academic profile with experience, education, and publications
+- Separate spaces for personal notes and projects
+- Responsive layout, search, and light and dark modes
+- Automated builds, internal link checks, and deployment
 
-[소스 코드 보기](https://github.com/seismin91/seismin91.github.io)
+[View source code](https://github.com/seismin91/seismin91.github.io)

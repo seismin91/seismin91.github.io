@@ -1,30 +1,30 @@
 {% assign profile = site.data.profile %}
-<nav class="section-nav" aria-label="소개 페이지 목차">
-  <a href="#introduction">자기소개</a>
-  <a href="#experience">경력</a>
-  <a href="#education">학위</a>
-  <a href="#research">연구·논문</a>
+<nav class="section-nav" aria-label="Profile sections">
+  <a href="#introduction">About Me</a>
+  <a href="#experience">Experience</a>
+  <a href="#education">Education</a>
+  <a href="#research">Research & Publications</a>
 </nav>
 <section class="profile-section" id="introduction">
-  <h2>자기소개</h2>
+  <h2>About Me</h2>
   <p class="profile-name">{{ profile.name | escape }}</p>
   <p class="profile-affiliation">{{ profile.affiliation | escape }} · {{ profile.role | escape }}</p>
   <p>{{ profile.bio | escape }}</p>
-  <div class="portfolio-tags" aria-label="연구 관심 분야">
+  <div class="portfolio-tags" aria-label="Research interests">
     {% for interest in profile.interests %}<span>{{ interest | escape }}</span>{% endfor %}
   </div>
 </section>
 <section class="profile-section" id="experience">
-  <h2>경력</h2>
+  <h2>Experience</h2>
   <ol class="profile-timeline">
     {% for item in profile.experience %}
       <li><span class="timeline-period">{{ item.period | escape }}</span><div><h3>{{ item.role | escape }}</h3><p>{{ item.organization | escape }}</p></div></li>
     {% endfor %}
   </ol>
-  <p class="profile-source">현재 소속은 <a href="{{ profile.source_url | escape }}" target="_blank" rel="noopener noreferrer">Google Scholar 프로필</a> 기준입니다.</p>
+  <p class="profile-source">Affiliation as listed on <a href="{{ profile.source_url | escape }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>.</p>
 </section>
 <section class="profile-section" id="education">
-  <h2>학위</h2>
+  <h2>Education</h2>
   {% if profile.education.size > 0 %}
     <ol class="profile-timeline">
       {% for item in profile.education %}
@@ -32,11 +32,11 @@
       {% endfor %}
     </ol>
   {% else %}
-    <p class="profile-pending">학위 정보는 업데이트 예정입니다.</p>
+    <p class="profile-pending">Education details will be added here.</p>
   {% endif %}
 </section>
 <section class="profile-section" id="research">
-  <h2>연구·논문</h2>
-  <p>탄성파 영상화, 역산, 자료처리와 최적화에 관한 연구를 진행합니다.</p>
-  <p><a href="{{ '/publications/' | relative_url }}">논문·학회 발표 목록 보기 →</a></p>
+  <h2>Research & Publications</h2>
+  <p>My research interests include seismic imaging, seismic inversion, seismic data processing, and optimization.</p>
+  <p><a href="{{ '/publications/' | relative_url }}">View journal articles and conference presentations →</a></p>
 </section>
