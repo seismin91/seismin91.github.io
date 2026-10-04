@@ -28,6 +28,7 @@ For the DAS article, the official English title, authors, and page range come fr
 | Sidebar groups and links | `_data/navigation.yml` |
 | Social links | `_data/contact.yml` |
 | Additional styles | `assets/css/portfolio.css` |
+| Site-wide typeface | `assets/css/jekyll-theme-chirpy.scss` |
 | Avatar | `assets/img/avatar.svg` |
 
 To add degrees, replace `education: []` in `_data/profile.yml` with entries containing `degree`, `institution`, `field`, and `period`. Add earlier positions to `experience` using `role`, `organization`, and `period`. Only add verified details intended for public display.
@@ -65,9 +66,11 @@ GitHub Pages uses **Settings → Pages → Build and deployment → Source → G
 
 The site URL is `https://seismin91.github.io` with an empty `baseurl`. Comments, analytics, and PWA caching are disabled. The original repository history is preserved.
 
+Site text uses Helvetica, with Arial and the browser's sans-serif font as fallbacks. The font uses the visitor's installed typefaces. Icon fonts and monospaced code formatting retain their specialized fonts.
+
 ## Theme updates
 
-The theme is pinned to 7.6.0 in `Gemfile`. Compare changes to the official Starter before updating, especially the overridden `_layouts/home.html`, `_includes/sidebar.html`, and `_data/locales/en.yml`.
+The theme is pinned to 7.6.0 in `Gemfile`. Compare changes to the official Starter before updating, especially the overridden `_layouts/home.html`, `_includes/sidebar.html`, `_data/locales/en.yml`, and `assets/css/jekyll-theme-chirpy.scss`.
 
 ## Credits
 
