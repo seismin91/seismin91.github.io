@@ -18,6 +18,10 @@ experience:
   - role: Postdoctoral Researcher
     organization: Kangwon National University
     period: Present
-education: []
+education: 
+- degree: Ph.D
+  institution: Korea Maritime and Ocean University
+  field: Exploration geophysics
+  period: 2019.03 ~ 2023.03
 # Education fields: degree, institution, field, period
 # Experience fields: role, organization, period
