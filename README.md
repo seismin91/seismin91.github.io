@@ -70,7 +70,7 @@ Site text uses Helvetica, with Arial and the browser's sans-serif font as fallba
 
 ## Theme updates
 
-The theme is pinned to 7.6.0 in `Gemfile`. Compare changes to the official Starter before updating, especially the overridden `_layouts/home.html`, `_includes/sidebar.html`, `_data/locales/en.yml`, and `assets/css/jekyll-theme-chirpy.scss`.
+The theme is pinned to 7.6.0 in `Gemfile`. Compare changes to the official Starter before updating, especially the overridden `_layouts/home.html`, `_includes/sidebar.html`, `_includes/head.html`, `_data/locales/en.yml`, and `assets/css/jekyll-theme-chirpy.scss`.
 
 ## Credits
 
