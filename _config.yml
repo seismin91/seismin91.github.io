@@ -14,19 +14,19 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: seismin91
+title: Sumin Kim
 
-tagline: 프로젝트와 배움의 기록
+tagline: Seismic imaging · Inversion
 
 description: >- # used by seo meta and the atom feed
-  seismin91의 개인 포트폴리오. 프로젝트와 배운 내용을 기록하는 공간입니다.
+  Sumin Kim의 개인 사이트. 탄성파 영상화·역산 연구와 경력, 논문, 블로그, 프로젝트를 소개합니다.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://seismin91.github.io"
 
 github:
-  username: seismin91
+  username: Sumin Kim
 
 twitter:
   username:
@@ -34,12 +34,13 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: seismin91
+  name: Sumin Kim
   email: # 공개할 이메일을 입력하면 됩니다.
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/seismin91
+    - "https://scholar.google.co.kr/citations?user=dfAqA7oAAAAJ&hl=ko"
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -157,7 +158,7 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 10
+# 홈은 연구 소개, 블로그는 /blog/에서 전체 글을 최신순으로 표시합니다.
 
 # The base URL of your site
 baseurl: ""

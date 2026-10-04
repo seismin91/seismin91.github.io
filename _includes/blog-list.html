@@ -1,0 +1,14 @@
+{% if include.posts.size > 0 %}
+  <div class="blog-list">
+    {% for post in include.posts %}
+      <article class="blog-entry">
+        <div class="blog-entry-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%Y.%m.%d' }}</time>{% if post.pin %}<span>고정 글</span>{% endif %}</div>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+        <p>{{ post.description | default: post.excerpt | strip_html | truncate: 150 | escape }}</p>
+        {% if post.categories.size > 0 %}<p class="blog-categories">{{ post.categories | join: ' / ' | escape }}</p>{% endif %}
+      </article>
+    {% endfor %}
+  </div>
+{% else %}
+  <p class="portfolio-empty">첫 번째 기록을 준비하고 있습니다.</p>
+{% endif %}

@@ -1,0 +1,12 @@
+<ol class="publication-list">
+  {% for publication in include.publications %}
+    <li class="publication-item">
+      <span class="publication-year">{{ publication.year }}</span>
+      <div>
+        <a class="publication-title" href="{{ publication.url | escape }}" target="_blank" rel="noopener noreferrer">{{ publication.title | escape }}</a>
+        <p class="publication-authors">{{ publication.authors | escape }}</p>
+        <p class="publication-venue">{{ publication.venue | escape }}</p>
+      </div>
+    </li>
+  {% endfor %}
+</ol>

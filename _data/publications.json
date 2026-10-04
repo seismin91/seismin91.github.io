@@ -1,0 +1,194 @@
+[
+  {
+    "type": "journal",
+    "year": 2022,
+    "title": "Efficient least-squares reverse time migration using local cross-correlation imaging condition",
+    "authors": "S Kim, YS Kim, W Chung",
+    "venue": "Journal of Geophysics and Engineering",
+    "url": "https://scholar.google.co.kr/citations?view_op=view_citation&hl=ko&user=dfAqA7oAAAAJ&citation_for_view=dfAqA7oAAAAJ:ldfaerwXgEUC"
+  },
+  {
+    "type": "journal",
+    "year": 2022,
+    "title": "Fast and memory-efficient frequency-domain least-squares reverse-time migration using singular value decomposition (SVD)",
+    "authors": "S Kim, YS Kim, W Chung",
+    "venue": "IEEE Transactions on Geoscience and Remote Sensing 60, 1-11",
+    "url": "https://scholar.google.co.kr/citations?view_op=view_citation&hl=ko&user=dfAqA7oAAAAJ&citation_for_view=dfAqA7oAAAAJ:u5HHmVD_uO8C"
+  },
+  {
+    "type": "journal",
+    "year": 2024,
+    "title": "Efficient extended least-squares reverse time migration based on an excitation amplitude imaging condition",
+    "authors": "S Kim, SG Kang, Y Choi, W Chung",
+    "venue": "Geophysics 89 (1), S31-S45",
+    "url": "https://scholar.google.co.kr/citations?view_op=view_citation&hl=ko&user=dfAqA7oAAAAJ&citation_for_view=dfAqA7oAAAAJ:bFI3QPDXJZMC"
+  },
+  {
+    "type": "journal",
+    "year": 2021,
+    "title": "Acoustic full waveform inversion using Discrete Cosine Transform (DCT)",
+    "authors": "S Kim, W Chung, JH Lee",
+    "venue": "Journal of Seismic Exploration 30",
+    "url": "https://scholar.google.co.kr/citations?view_op=view_citation&hl=ko&user=dfAqA7oAAAAJ&citation_for_view=dfAqA7oAAAAJ:35N4QoGY0k4C"
+  },
+  {
+    "type": "journal",
+    "year": 2024,
+    "title": "Efficient Direct Envelope Inversion with Excitation Amplitude for Strong Velocity Contrast Model",
+    "authors": "D Lee, SG Kang, S Kim, YS Kim, W Chung",
+    "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+    "url": "https://scholar.google.co.kr/citations?view_op=view_citation&hl=ko&user=dfAqA7oAAAAJ&citation_for_view=dfAqA7oAAAAJ:_xSYboBqXhAC"
+  },
+  {
+    "type": "journal",
+    "year": 2016,
+    "title": "Broadband Processing of Conventional Marine Seismic Data Through Source and Receiver Deghosting in Frequency-Ray Parameter Domain",
+    "authors": "S Kim, NH Koo, HY Lee",
+    "venue": "Geophysics and Geophysical Exploration",
+    "url": "https://scholar.google.co.kr/citations?view_op=view_citation&hl=ko&user=dfAqA7oAAAAJ&citation_for_view=dfAqA7oAAAAJ:NaGl4SEjCO4C"
+  },
+  {
+    "type": "journal",
+    "year": 2023,
+    "title": "Least-squares reverse time migration using the most energetic source wavefields based on excitation amplitude imaging condition",
+    "authors": "S Kim, W Chung, YS Kim",
+    "venue": "Geophysical Prospecting, 1-17",
+    "url": "https://scholar.google.co.kr/citations?view_op=view_citation&hl=ko&user=dfAqA7oAAAAJ&citation_for_view=dfAqA7oAAAAJ:g5m5HwL7SMYC"
+  },
+  {
+    "type": "journal",
+    "year": 2024,
+    "title": "Seismic Imaging of the Arctic Subsea Permafrost Using a Least-Squares Reverse Time Migration Method",
+    "authors": "S Kim, SG Kang, Y Choi, JK Hong, J Kwak",
+    "venue": "Remote Sensing",
+    "url": "https://scholar.google.co.kr/citations?view_op=view_citation&hl=ko&user=dfAqA7oAAAAJ&citation_for_view=dfAqA7oAAAAJ:EUQCXRtRnyEC"
+  },
+  {
+    "type": "journal",
+    "year": 2020,
+    "title": "Seismic wavefield reconstruction inversion using a plane-wave encoding strategy",
+    "authors": "S Kim, W Chung, YS Kim, C Shin",
+    "venue": "Journal of Geophysics and Engineering 17 (6), 1037-1048",
+    "url": "https://scholar.google.co.kr/citations?view_op=view_citation&hl=ko&user=dfAqA7oAAAAJ&citation_for_view=dfAqA7oAAAAJ:lSLTfruPkqcC"
+  },
+  {
+    "type": "conference",
+    "year": 2019,
+    "title": "Two dimensional acoustic full waveform inversion using discrete cosine transform",
+    "authors": "S Kim, W Chung, JH Lee",
+    "venue": "American Geophysical Union, Fall Meeting 2019",
+    "url": "https://scholar.google.co.kr/citations?view_op=view_citation&hl=ko&user=dfAqA7oAAAAJ&citation_for_view=dfAqA7oAAAAJ:RYcK_YlVTxYC"
+  },
+  {
+    "type": "journal",
+    "year": 2026,
+    "title": "Image-Domain Least-Squares Reverse Time Migration Based on an Adjoint-Consistent Inverse-Scattering Imaging Condition",
+    "authors": "S Kim, W Chung",
+    "venue": "IEEE Geoscience and Remote Sensing Letters",
+    "url": "https://scholar.google.co.kr/citations?view_op=view_citation&hl=ko&user=dfAqA7oAAAAJ&citation_for_view=dfAqA7oAAAAJ:PoWvk5oyLR8C"
+  },
+  {
+    "type": "journal",
+    "year": 2026,
+    "title": "Frequency Domain Least-Squares Reverse Time Migration Using a Low-Rank Approximated Green's Function Based on Tucker Decomposition",
+    "authors": "S Kim, Y Kim, SG Kang, W Chung",
+    "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+    "url": "https://scholar.google.co.kr/citations?view_op=view_citation&hl=ko&user=dfAqA7oAAAAJ&citation_for_view=dfAqA7oAAAAJ:SpbeaW3--B0C"
+  },
+  {
+    "type": "journal",
+    "year": 2025,
+    "title": "Full waveform inversion for a long-wavelength velocity model using a regenerated wavefield based on the SWEET method",
+    "authors": "S Jeong, S Kim, W Son, W Chung",
+    "venue": "Journal of Seismic Exploration",
+    "url": "https://scholar.google.co.kr/citations?view_op=view_citation&hl=ko&user=dfAqA7oAAAAJ&citation_for_view=dfAqA7oAAAAJ:i2xiXl-TujoC"
+  },
+  {
+    "type": "journal",
+    "year": 2025,
+    "title": "Efficient wave-equation-based Kirchhoff-style migration using interpolated excitation information",
+    "authors": "S Kim, J Ha, W Chung",
+    "venue": "Journal of Seismic Exploration",
+    "url": "https://scholar.google.co.kr/citations?view_op=view_citation&hl=ko&user=dfAqA7oAAAAJ&citation_for_view=dfAqA7oAAAAJ:S16KYo8Pm5AC"
+  },
+  {
+    "type": "conference",
+    "year": 2025,
+    "title": "1D velocity model prediction based on hybrid CNN for imaging subsea permafrost",
+    "authors": "S Jeong, S Kim, WK Kim, W Chung",
+    "venue": "86th EAGE Annual Conference & Exhibition",
+    "url": "https://scholar.google.co.kr/citations?view_op=view_citation&hl=ko&user=dfAqA7oAAAAJ&citation_for_view=dfAqA7oAAAAJ:kz9GbA2Ns4gC"
+  },
+  {
+    "type": "conference",
+    "year": 2024,
+    "title": "Regional Variations of Subsea Permafrost Development on the Arctic Continental Shelves: A comparative analysis of the Beaufort and East Siberian Seas",
+    "authors": "YK Jin, SG Kang, Y Choi, S Kim, J Kuk Hong",
+    "venue": "European Geosciences Union General Assembly 2024 (EGU24), 5198",
+    "url": "https://scholar.google.co.kr/citations?view_op=view_citation&hl=ko&user=dfAqA7oAAAAJ&citation_for_view=dfAqA7oAAAAJ:a0OBvERweLwC"
+  },
+  {
+    "type": "conference",
+    "year": 2023,
+    "title": "Imaging a P-wave velocity structure of the subsea permafrost on the East Siberian shelf using the full waveform inversion",
+    "authors": "SG Kang, S Kim, YJ Choi, W Chung, HS Bae, YK Jin, JK Hong",
+    "venue": "AGU Fall Meeting Abstracts 2023 (643), NS33B-0643",
+    "url": "https://scholar.google.co.kr/citations?view_op=view_citation&hl=ko&user=dfAqA7oAAAAJ&citation_for_view=dfAqA7oAAAAJ:f2IySw72cVMC"
+  },
+  {
+    "type": "conference",
+    "year": 2023,
+    "title": "High-Resolution Imaging of Subsea Permafrost in Arctic Environment using Least-Squares Reverse Time Migration: Investigation of Feasibility of LSRTM",
+    "authors": "S Kim, SG Kang, YJ Choi, JK Hong, YK Jin, W Chung",
+    "venue": "AGU Fall Meeting Abstracts 2023 (648), NS33B-0648",
+    "url": "https://scholar.google.co.kr/citations?view_op=view_citation&hl=ko&user=dfAqA7oAAAAJ&citation_for_view=dfAqA7oAAAAJ:pyW8ca7W8N0C"
+  },
+  {
+    "type": "conference",
+    "year": 2023,
+    "title": "Enhancing computational efficiency for extended least-squares reverse time migration using excitation amplitude imaging condition",
+    "authors": "S Kim, W Chung",
+    "venue": "84th EAGE Annual Conference & Exhibition",
+    "url": "https://scholar.google.co.kr/citations?view_op=view_citation&hl=ko&user=dfAqA7oAAAAJ&citation_for_view=dfAqA7oAAAAJ:M05iB0D1s5AC"
+  },
+  {
+    "type": "conference",
+    "year": 2022,
+    "title": "Frequency Domain Least-Squares Reverse Time Migration Using Low-Rank Green’s Function for High Memory Efficiency",
+    "authors": "S Kim, W Chung",
+    "venue": "83rd EAGE Annual Conference & Exhibition",
+    "url": "https://scholar.google.co.kr/citations?view_op=view_citation&hl=ko&user=dfAqA7oAAAAJ&citation_for_view=dfAqA7oAAAAJ:2P1L_qKh6hAC"
+  },
+  {
+    "type": "journal",
+    "year": 2022,
+    "title": "탄성매질에서의 분포형 음향 센싱 자료를 활용한 평면파 전파형역산",
+    "authors": "정서제, 정우근, 신성렬, 김수민",
+    "venue": "지구물리와 물리탐사 25 (4), 214-216",
+    "url": "https://scholar.google.co.kr/citations?view_op=view_citation&hl=ko&user=dfAqA7oAAAAJ&citation_for_view=dfAqA7oAAAAJ:D03iK_w7-QYC"
+  },
+  {
+    "type": "journal",
+    "year": 2021,
+    "title": "Application of Deghosting and Designature for High-Resolution Seismic Data",
+    "authors": "S Kim, W Chung, S Shin, J Ha, J Shin",
+    "venue": "Journal of the Korean Society of Mineral and Energy Resources Engineers",
+    "url": "https://scholar.google.co.kr/citations?view_op=view_citation&hl=ko&user=dfAqA7oAAAAJ&citation_for_view=dfAqA7oAAAAJ:70eg2SAEIzsC"
+  },
+  {
+    "type": "conference",
+    "year": 2020,
+    "title": "Efficient Wavefield Reconstruction Inversion using Plane-wave in Frequency Domain",
+    "authors": "S Kim, W Chung, S Shin",
+    "venue": "AGU Fall Meeting Abstracts",
+    "url": "https://scholar.google.co.kr/citations?view_op=view_citation&hl=ko&user=dfAqA7oAAAAJ&citation_for_view=dfAqA7oAAAAJ:vV6vV6tmYwMC"
+  },
+  {
+    "type": "conference",
+    "year": 2018,
+    "title": "Application of window-based deghosting processing to marine seismic data, in Ulleung Basin, Korea",
+    "authors": "S Kim, NH Koo, S Shin, W Chung",
+    "venue": "AGU Fall Meeting Abstracts",
+    "url": "https://scholar.google.co.kr/citations?view_op=view_citation&hl=ko&user=dfAqA7oAAAAJ&citation_for_view=dfAqA7oAAAAJ:J_g5lzvAfSwC"
+  }
+]

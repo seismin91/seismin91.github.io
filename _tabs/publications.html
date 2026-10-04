@@ -1,0 +1,31 @@
+---
+title: Publications
+icon: fas fa-file-lines
+order: 2
+permalink: /publications/
+---
+{% assign journals = site.data.publications | where: 'type', 'journal' | sort: 'year' | reverse %}
+{% assign conferences = site.data.publications | where: 'type', 'conference' | sort: 'year' | reverse %}
+<p>학술지 논문과 학회 발표를 최신 연도순으로 정리했습니다.</p>
+<nav class="section-nav" aria-label="논문 목록 목차">
+  <a href="#journal-articles">학술지 논문 <span>{{ journals.size }}</span></a>
+  <a href="#conference-presentations">학회·발표 <span>{{ conferences.size }}</span></a>
+  <a href="{{ site.data.profile.source_url | escape }}" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a>
+</nav>
+<section id="journal-articles" class="profile-section">
+  <h2>학술지 논문</h2>
+  {% assign years = journals | group_by: 'year' %}
+  {% for year in years %}
+    <h3 class="publication-year-heading">{{ year.name }}</h3>
+    {% include publication-list.html publications=year.items %}
+  {% endfor %}
+</section>
+<section id="conference-presentations" class="profile-section">
+  <h2>학회·발표</h2>
+  {% assign years = conferences | group_by: 'year' %}
+  {% for year in years %}
+    <h3 class="publication-year-heading">{{ year.name }}</h3>
+    {% include publication-list.html publications=year.items %}
+  {% endfor %}
+</section>
+<p class="profile-source">출처: <a href="{{ site.data.profile.source_url | escape }}">Google Scholar 공개 목록</a> · {{ site.data.profile.source_checked }} 확인. 제목·저자·연도·학술지 정보는 해당 목록의 표기를 따릅니다.</p>

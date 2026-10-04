@@ -14,7 +14,9 @@ tabs:
   categories: 카테고리
   tags: 태그
   archives: 아카이브
-  about: 소개
+  about: 소개 · 이력
+  publications: 논문 · 발표
+  blog: 블로그
   projects: 프로젝트
 
 # the text displayed in the search bar & search results

@@ -1,16 +1,32 @@
+{% assign profile = site.data.profile %}
 <section class="portfolio-intro" aria-labelledby="intro-title">
-  <p class="portfolio-eyebrow">PORTFOLIO &amp; NOTES</p>
-  <h1 id="intro-title">만든 것과<br>배운 것을 기록합니다<span class="portfolio-dot">.</span></h1>
-  <p class="portfolio-lead">안녕하세요, seismin91입니다.<br>프로젝트와 배움의 과정을 이곳에 모읍니다.</p>
+  <p class="portfolio-eyebrow">SEISMIC IMAGING &amp; INVERSION</p>
+  <h1 id="intro-title">{{ profile.name | escape }}<span class="portfolio-dot">.</span></h1>
+  <p class="profile-affiliation">{{ profile.affiliation | escape }} · {{ profile.role | escape }}</p>
+  <p class="portfolio-lead">탄성파 영상화와 역산을 연구합니다.<br>연구 이력과 개인적인 배움의 기록을 이곳에 모읍니다.</p>
   <div class="portfolio-links">
-    <a class="portfolio-button" href="{{ '/projects/' | relative_url }}">프로젝트 보기 <span aria-hidden="true">↗</span></a>
-    <a class="portfolio-text-link" href="{{ '/about/' | relative_url }}">소개 <span aria-hidden="true">→</span></a>
+    <a class="portfolio-button" href="{{ '/about/' | relative_url }}">소개와 이력 <span aria-hidden="true">↗</span></a>
+    <a class="portfolio-text-link" href="{{ profile.source_url | escape }}" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
   </div>
 </section>
-
-<section class="portfolio-feature" aria-labelledby="featured-title">
-  <div class="portfolio-feature-top"><span class="portfolio-eyebrow">PROJECT 01</span><span class="portfolio-status">이 사이트</span></div>
-  <h2 id="featured-title"><a href="{{ '/projects/#personal-site' | relative_url }}">개인 포트폴리오 &amp; 기록</a></h2>
-  <p>프로젝트를 소개하고, 오래 남기고 싶은 배움을 정리하는 개인 공간.</p>
-  <div class="portfolio-tags" aria-label="사용 기술"><span>Jekyll</span><span>Chirpy</span><span>GitHub Pages</span></div>
-</section>
+<nav class="portfolio-pathways" aria-label="사이트 둘러보기">
+  <section>
+    <p class="portfolio-eyebrow">01 / PROFILE</p>
+    <h2>소개와 연구</h2>
+    <p>지금까지의 경력과 학위, 연구 성과.</p>
+    <div class="pathway-links">
+      <a href="{{ '/about/#experience' | relative_url }}">경력</a>
+      <a href="{{ '/about/#education' | relative_url }}">학위</a>
+      <a href="{{ '/publications/' | relative_url }}">논문·발표</a>
+    </div>
+  </section>
+  <section>
+    <p class="portfolio-eyebrow">02 / NOTES &amp; PROJECTS</p>
+    <h2>개인적인 기록</h2>
+    <p>공부하며 남긴 메모와 만들어가는 것들.</p>
+    <div class="pathway-links">
+      <a href="{{ '/blog/' | relative_url }}">블로그</a>
+      <a href="{{ '/projects/' | relative_url }}">프로젝트</a>
+    </div>
+  </section>
+</nav>

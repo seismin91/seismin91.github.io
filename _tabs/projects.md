@@ -1,7 +1,7 @@
 ---
 title: Projects
 icon: fas fa-laptop-code
-order: 2
+order: 4
 permalink: /projects/
 ---
 
@@ -15,8 +15,8 @@ permalink: /projects/
 
 ### 구성
 
-- 소개와 프로젝트를 담는 포트폴리오
-- Markdown으로 작성하는 글과 카테고리·태그 분류
+- 자기소개·경력·학위와 논문을 담는 프로필
+- 별도 블로그와 프로젝트 공간, 카테고리·태그 분류
 - 모바일 화면과 라이트·다크 모드를 지원하는 Chirpy 테마
 - 변경사항을 확인하고 배포하는 GitHub Actions
 
