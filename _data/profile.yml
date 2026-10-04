@@ -15,13 +15,36 @@ interests:
   - Seismic data processing
   - Optimization
 experience:
-  - role: Postdoctoral Researcher
-    organization: Kangwon National University
-    period: Present
+- role: Postdoctoral Researcher
+    organization: Research Institute for Earth Resources(RIER) in Kangwon National University
+    period: 2026.08 ~ present
+- role: Postdoctoral Researcher
+    organization: Korea Maritime and Ocean University
+    period: 2025.01~ 2025.12
+- role: Postdoctoral Researcher
+    organization: Korea Polar Research Institute (KOPRI)
+    period: 2023.03 ~ 2024.07
+- role: Lecturer
+    organization: Korea Maritime and Ocean University
+    period: 2024.09 ~ 2026.08
+- role: Lecturer
+    organization: Chungbuk National University
+    period: 2026.03 ~ present
+     
+  
 education: 
 - degree: Ph.D
   institution: Korea Maritime and Ocean University
   field: Exploration geophysics
-  period: 2019.03 ~ 2023.03
+  period: 2019.03 ~ 2023.02
+- degree: Master
+  institution: University of Science & Technology
+  field: Exploration geophysics
+  period: 2015.03 ~ 2017.02
+- degree: Bachelor
+  institution: Korea Maritime and Ocean University
+  field: Energy resource engineering
+  period: 2009.03 ~ 2015.02
+
 # Education fields: degree, institution, field, period
 # Experience fields: role, organization, period
