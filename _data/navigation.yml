@@ -12,6 +12,10 @@
       url: /publications/
       key: publications
       icon: fas fa-file-lines
+    - title: News
+      url: /news/
+      key: news
+      icon: fas fa-newspaper
 - label: PERSONAL NOTES
   items:
     - title: Blog
