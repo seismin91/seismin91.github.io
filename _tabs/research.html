@@ -4,13 +4,50 @@ icon: fas fa-microscope
 order: 2
 permalink: /research/
 ---
-<p>My research focuses on seismic imaging and inversion, with interests in seismic data processing and optimization.</p>
+<p class="portfolio-lead">I work on exploration geophysics, focusing on seismic imaging and inversion through wave equations and machine learning. My research interests connect how seismic data are acquired and processed with how they are used to image the subsurface, estimate physical properties, and assess uncertainty.</p>
 
-<section class="profile-section" id="research-interests">
-  <h2>Research Interests</h2>
-  <ul>
-    {% for interest in site.data.profile.interests %}
-      <li>{{ interest | escape }}</li>
-    {% endfor %}
-  </ul>
+<nav class="section-nav" aria-label="Research topics">
+  <a href="#sejong-fellowship">Fellowship Project</a>
+  <a href="#wave-equation-imaging">Imaging &amp; Inversion</a>
+  <a href="#neural-operators">Neural Operators</a>
+  <a href="#seismic-processing">Seismic Processing</a>
+  <a href="#acquisition-design">Acquisition Design</a>
+  <a href="#bayesian-inversion">Uncertainty</a>
+</nav>
+
+<section class="profile-section" id="sejong-fellowship" aria-labelledby="sejong-fellowship-title">
+  <h2 id="sejong-fellowship-title">Current Fellowship Project</h2>
+  <p class="portfolio-eyebrow">Sejong Science Fellowship · Domestic Track · 2026</p>
+  <h3>Development of high-efficiency and high-reliability CCS seismic monitoring technology using physics-informed neural operator-based surrogate models</h3>
+  <p>My current research is supported by the National Research Foundation of Korea (NRF) through the Sejong Science Fellowship. This project investigates neural-operator surrogate models for seismic monitoring of carbon capture and storage (CCS).</p>
+  <p class="profile-source"><a href="https://www.kmou.ac.kr/kmou/na/ntt/selectNttInfo.do?mi=1455&amp;nttSn=10372336" target="_blank" rel="noopener noreferrer">Official university announcement</a></p>
 </section>
+
+<section class="profile-section" id="wave-equation-imaging" aria-labelledby="wave-equation-title">
+  <h2 id="wave-equation-title">Wave-Equation Imaging &amp; Inversion</h2>
+  <p>My research focuses on reverse time migration (RTM), least-squares reverse time migration (LSRTM), and full-waveform inversion (FWI). These methods use wave propagation to connect recorded seismic data with subsurface structure and properties. I am interested in developing imaging and inversion methods within this physical framework, including the relationship between data fit, model resolution, and the information available in the observations.</p>
+</section>
+
+<section class="profile-section" id="neural-operators" aria-labelledby="neural-operators-title">
+  <h2 id="neural-operators-title">Physics-Informed Neural Operators</h2>
+  <p>I explore physics-informed neural operators for seismic imaging and inversion. This direction brings machine learning into problems governed by wave equations, with an emphasis on connecting learned representations to the underlying physics. My interests include how neural operators can support wavefield modeling and inverse problems, and how their predictions can be assessed for physical consistency and usefulness in seismic applications.</p>
+</section>
+
+<section class="profile-section" id="seismic-processing" aria-labelledby="seismic-processing-title">
+  <h2 id="seismic-processing-title">Seismic Processing &amp; Deblending</h2>
+  <p>I am interested in inverse problems for seismic data processing, particularly deblending: separating overlapping source responses in seismic recordings. This connects data preparation with the imaging and inversion methods that follow. Questions of interest include how to distinguish individual signals while preserving information relevant to subsurface interpretation, and how processing choices affect the data available for subsequent analysis.</p>
+</section>
+
+<section class="profile-section" id="acquisition-design" aria-labelledby="acquisition-design-title">
+  <h2 id="acquisition-design-title">Geometry Optimization &amp; Compressive Sensing</h2>
+  <p>My interests also include acquisition geometry optimization and compressive sensing. Both concern how useful subsurface information can be obtained from a limited set of measurements. I am interested in the relationship between source and receiver placement, sampling, and reconstruction, particularly how acquisition choices influence the information that can be recovered through seismic processing, imaging, and inversion.</p>
+</section>
+
+<section class="profile-section" id="bayesian-inversion" aria-labelledby="bayesian-inversion-title">
+  <h2 id="bayesian-inversion-title">Bayesian Inversion &amp; Uncertainty</h2>
+  <p>I am interested in Bayesian approaches to seismic inverse problems and the uncertainty associated with inferred subsurface models. This perspective connects observations with prior information and describes a range of plausible solutions. It provides a framework for examining which model features the data constrain and where uncertainty remains, complementing the development of imaging and inversion methods.</p>
+</section>
+
+<div class="portfolio-links">
+  <a class="portfolio-button" href="{{ '/publications/' | relative_url }}">Explore my publications <span aria-hidden="true">→</span></a>
+</div>
