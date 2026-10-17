@@ -4,9 +4,16 @@ name: Sumin Kim
 role: Postdoctoral Researcher
 affiliation: Kangwon National University
 bio: >-
-  I am a postdoctoral researcher at Kangwon National University, working on seismic
-  imaging and inversion. My interests include seismic data processing and optimization.
-  This site brings together my academic background, publications, and personal notes. good
+  I am a postdoctoral fellow at the Research Institute for Earth Resources at Kangwon National University,
+  where I work on exploration geophysics and machine learning for seismic imaging.
+
+  My research focuses on developing seismic imaging and inversion methods based on wave equations 
+  and physics-informed neural operators, particularly for least-squares reverse time migration (LSRTM), 
+  reverse time migration (RTM), and full-waveform inversion (FWI). My broader interests include inverse problems
+  and seismic data processing for deblending, geometry optimization, compressive sensing, and Bayesian inversion.
+
+  Feel free to contact me by email, explore my publications on Google Scholor, or connect with me on LinkedIn.
+  
 source_url: "https://scholar.google.co.kr/citations?user=dfAqA7oAAAAJ&hl=en"
 source_checked: "2026-10-04"
 interests:
