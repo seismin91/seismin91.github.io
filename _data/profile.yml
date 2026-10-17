@@ -7,7 +7,7 @@ bio: |-
   I am a postdoctoral fellow at the Research Institute for Earth Resources at Kangwon National University,
   where I work on exploration geophysics and machine learning for seismic imaging.
 
-  In 2026, I was selected for the Sejong Science Fellowship (Domestic Track) of the National Research Foundation of Korea (NRF), and I am currently conducting research supported by this fellowship.
+  In 2026, I was selected for the Sejong Science Fellowship (Domestic Track) of the National Research Foundation of Korea (NRF), and I am currently conducting research supported by this fellowship. [Read about my fellowship project](/research/#sejong-fellowship)
 
   My research focuses on developing seismic imaging and inversion methods based on wave equations
   and physics-informed neural operators, particularly for least-squares reverse time migration (LSRTM),
@@ -25,33 +25,33 @@ interests:
   - Optimization
 experience:
 - role: Postdoctoral Researcher
-  organization: Research Institute for Earth Resources(RIER) in Kangwon National University
-  period: 2026.08 ~ present
+  organization: Research Institute for Earth Resources (RIER), Kangwon National University
+  period: Aug 2026 – Present
 - role: Postdoctoral Researcher
   organization: Korea Maritime and Ocean University
-  period: 2025.01~ 2025.12
+  period: Jan 2025 – Dec 2025
 - role: Postdoctoral Researcher
   organization: Korea Polar Research Institute (KOPRI)
-  period: 2023.03 ~ 2024.07
+  period: Mar 2023 – Jul 2024
 - role: Lecturer
   organization: Korea Maritime and Ocean University
-  period: 2024.09 ~ 2026.08
+  period: Sep 2024 – Aug 2026
 - role: Lecturer
   organization: Chungbuk National University
-  period: 2026.03 ~ present
-education: 
-- degree: Ph.D
+  period: Mar 2026 – Present
+education:
+- degree: Ph.D.
   institution: Korea Maritime and Ocean University
-  field: Exploration geophysics
-  period: 2019.03 ~ 2023.02
-- degree: Master
-  institution: University of Science & Technology
-  field: Exploration geophysics
-  period: 2015.03 ~ 2017.02
-- degree: Bachelor
+  field: Exploration Geophysics
+  period: Mar 2019 – Feb 2023
+- degree: Master's degree
+  institution: University of Science and Technology
+  field: Exploration Geophysics
+  period: Mar 2015 – Feb 2017
+- degree: Bachelor's degree
   institution: Korea Maritime and Ocean University
-  field: Energy resource engineering
-  period: 2009.03 ~ 2015.02
+  field: Energy Resources Engineering
+  period: Mar 2009 – Feb 2015
 
 # Education fields: degree, institution, field, period
 # Experience fields: role, organization, period
